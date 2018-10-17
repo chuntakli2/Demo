@@ -1,0 +1,134 @@
+body{
+	margin: 0; padding: 0;
+	font-family:Arial;
+	color: #ffffff;
+	background-color: #ffffff;
+	min-width: 1080px;
+	text-align: left;
+	height: 100%;
+	font-size: 10px;
+}
+
+img {border:0;}
+
+.clear { clear: both; }
+
+/***** Header   ******/
+#main_wrapper{
+	margin: 0 auto;
+	border-top:10px solid #D31045;
+	position: absolute;
+	width: 1080px;
+	min-height: 1700px;
+	height: 100%;
+	background: url(../images/bg.jpg) bottom center no-repeat;
+	overflow:hidden;
+}
+
+#header_wrapper{
+	width: 1080px;
+	height: 160px;
+	margin-top: 10px;
+	background: url(../images/top.png) top center no-repeat;
+}
+
+
+ul#content_list{
+	margin:0;padding: 0;
+	list-style: none;
+	position: absolute;
+	top:170px;
+	height: 65%;
+}
+
+	ul#content_list li{
+		margin:0;padding: 8px 20px;
+		display: block;
+	}
+	
+	
+	.block_left{
+		float: left;
+		width: 790px;
+		height: 100%;
+	}
+	
+	.block_right{
+		float: left;
+		margin-left: 16px;
+		width: 231px; height: 100%;
+		overflow: hidden;
+	}
+	
+		.block_right img{
+			width: 105%;
+		}
+	
+	.block_text_1{
+		font-size: 6em;
+		margin-top: 5%;
+		margin-left: 30px;
+		border-bottom: 2px solid #ffffff;
+		display: inline-block;
+		line-height: 1;
+	}
+	
+	.block_text_2{
+		font-size: 4.5em;
+		margin-top: 3.5%;
+		margin-left: 30px;
+		line-height: 1.3em;
+	}
+	
+	.block_text_3{
+		font-size: 1.3em;
+		padding-left: 5px;
+		padding-right: 3px;
+		line-height: 1;
+		margin: 0;
+	}
+	
+ul#button_list{
+	margin:40px 0 0 28px;padding: 0;
+	list-style: none;
+}	
+
+	ul#button_list li{
+		margin:0 20px 0 0;padding: 0;
+		float: left;
+	}	
+	
+		ul#button_list a{
+			padding: 12px 20px;
+			border: 3px solid #ffffff;
+			font-size: 5em;
+			font-weight: bold;
+			line-height: 1;
+			-moz-border-radius: 15px;
+			-webkit-border-radius: 15px;
+			border-radius: 15px;
+			display: block;
+			color: #ffffff;
+			text-decoration: none;
+		}
+	
+	
+		.button_on{
+			background-color: #ffffff;
+			color: #D31045 !important;
+		}
+	
+	
+	#footer_block{
+		position: absolute;
+		top:78%;
+		
+		
+	}
+	
+		
+	#aia_logo{
+		position: absolute;
+		bottom: 20px;
+		left: 10px;
+	}	
